@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Label from './label'
+import Label from './index'
 
 
 storiesOf('Components/Form/Label', module)

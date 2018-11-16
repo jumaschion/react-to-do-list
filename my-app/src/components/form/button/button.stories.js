@@ -1,13 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Button from './button'
+import Button from './index'
 // import { action } from '@storybook/addon-actions';
 // import { Button } from '@storybook/react/demo';
 
-storiesOf('Button', module)
+storiesOf('Components/Form/Button', module)
   .add('default', () => (
-    <button className='button'>
+    <Button>
      Enviar
-    </button>
+    </Button>
+  ))
+  .add('default-disabled', () => (
+    <Button disabled>
+     Enviar
+    </Button>
   ))
   

@@ -1,14 +1,16 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import StoryRouter from 'storybook-react-router'
-import Link from './index'
+import Navbar from './index'
 
 
-storiesOf('Components/Form/Link', module)
+
+storiesOf('Components/Navbar', module)
   .addDecorator(StoryRouter())
   .add('defalut', () => (
-    <Link href='/'>
-    Link Here
-    </Link>
+    <Navbar href='/'>
+  
+    </Navbar>
+
   ))
   
